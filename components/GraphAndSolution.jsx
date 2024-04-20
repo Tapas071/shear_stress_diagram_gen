@@ -19,7 +19,10 @@ const GraphAndSolution = ({ length, unit, load, forceUnit, position }) => {
           <ResultCom load={load} position={position} length={length} />
         </div>
         <div className="bg-red-900">
-          <div className="">{/* <Canvas /> */}</div>
+          <div className="">{<Canvas />}</div>
+        </div>
+        <div className="bg-red-900">
+          <div className="">{<Canvas />}</div>
         </div>
       </div>
     </>

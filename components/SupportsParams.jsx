@@ -22,7 +22,7 @@ const SupportsParams = () => {
   return (
     <>
       <div className=" bg-red-300 gap-5">
-        <div className=" h-10 w-10 flex bg-green-900 w-full justify-evenly">
+        <div className=" h-10  flex bg-green-900 w-full justify-evenly">
           {SupportType.map((support) => {
             return (
               <div key={support.value} className="flex flex-col  ">

@@ -8,9 +8,10 @@ const Canvas = () => {
     const canvas = canvasRef.current;
     const context = canvas.getContext("2d");
     context.beginPath();
-    context.moveTo(20, 20);
-    context.lineTo(20, 100);
-    context.lineTo(200, 100);
+    context.moveTo(10, 10);
+    context.lineTo(10, 100);
+    // context.lineTo(350, 50);
+    context.lineTo(700, 100);
     context.strokeStyle = "black";
     context.stroke();
     contextRef.current = context;
