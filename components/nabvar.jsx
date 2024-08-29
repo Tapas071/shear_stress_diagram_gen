@@ -4,10 +4,7 @@ import { PiAirplaneInFlight } from "react-icons/pi";
 
 const Navbar = () => {
   const options = [
-    { name: "Terms and Conditions", link: "/about/terms&conditions" },
-    { name: "Pricing", link: "/" },
-    { name: "Support", link: "/" },
-    { name: "Contacts", link: "/" },
+    { name: "Home", path: "/" },
   ];
   return (
     <>
